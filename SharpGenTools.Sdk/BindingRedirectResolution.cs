@@ -14,7 +14,7 @@ namespace SharpGenTools.Sdk
 
         static BindingRedirectResolution()
         {
-#if NET46
+#if NET472
             AppDomain.CurrentDomain.AssemblyResolve += (s, args) =>
             {
                 var assemblyPath = Assembly.GetExecutingAssembly().Location;

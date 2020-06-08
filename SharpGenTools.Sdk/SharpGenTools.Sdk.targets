@@ -14,9 +14,9 @@
 
   <ItemGroup Condition="'$(SharpGenSdkAssembly)' == ''">
     <SharpGenSdkAssembly Condition="'$(MSBuildRuntimeType)' == 'Core'"
-                         Include="$(MSBuildThisFileDirectory)/../tools/netstandard1.3/SharpGenTools.Sdk.dll" />
+                         Include="$(MSBuildThisFileDirectory)/../tools/netstandard2.0/SharpGenTools.Sdk.dll" />
     <SharpGenSdkAssembly Condition="'$(MSBuildRuntimeType)' != 'Core'"
-                         Include="$(MSBuildThisFileDirectory)/../tools/net46/SharpGenTools.Sdk.dll" />
+                         Include="$(MSBuildThisFileDirectory)/../tools/net472/SharpGenTools.Sdk.dll" />
   </ItemGroup>
 
   <ItemGroup>

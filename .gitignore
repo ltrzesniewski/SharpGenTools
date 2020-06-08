@@ -43,6 +43,7 @@ Generated*/
 packages/
 Temp*/
 .vs/
+.idea/
 #ignore build log file
 BuildErrors.log
 #ignore certification test results

@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <TargetFramework>netstandard1.3</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <Description>Library for patching methods that require IL from assemblies compiled with code generated from SharpGen.</Description>
   </PropertyGroup>
   <ItemGroup>
